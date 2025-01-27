@@ -24,7 +24,7 @@ client.once('ready', () => {
   const scheduleMessage = () => {
     setTimeout(async () => {
       const channel = await client.channels.fetch(targetChannelId);
-      if (channel) channel.send('👋 Hello, Guys. Plz set the today\'s plan. Thanks!');
+      if (channel) channel.send('👋 Hello, Guys. Plz set the today\'s plan in thread. Thanks!');
       scheduleMessage(); // Schedule the next message
     }, calculateDelay());
   };
