@@ -4,7 +4,7 @@ require('dotenv').config();
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 const targetChannelId = '1333264692940115968'; // Replace with your channel ID
-const targetTime = '23:30'; // Set the specific time (24-hour format)
+const targetTime = '13:57'; // Set the specific time (24-hour format)
 
 client.login(process.env.TOKEN);
 
